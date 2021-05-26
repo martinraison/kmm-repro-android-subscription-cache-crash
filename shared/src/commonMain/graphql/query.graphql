@@ -1,0 +1,9 @@
+subscription TripsBooked {
+    tripsBooked
+}
+
+mutation CancelTrip {
+    cancelTrip(launchId: "83") {
+        message
+    }
+}
